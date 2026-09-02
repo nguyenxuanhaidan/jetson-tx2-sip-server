@@ -66,4 +66,3 @@ Transport:  UDP
 Port:       5060
 ```
 
-Use the current Jetson Wi-Fi IP reported by `ip -4 addr` rather than hard-coding the example address above after a reboot/network change.
