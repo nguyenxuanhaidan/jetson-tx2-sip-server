@@ -1,0 +1,16 @@
+# Local secrets and overrides
+*.secret
+*.key
+*.pem
+.env
+
+# Backup files
+*.bak
+*~
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
