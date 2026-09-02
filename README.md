@@ -13,23 +13,25 @@ Local SIP server demonstration on an NVIDIA Jetson TX2 using Asterisk/PJSIP and 
 - Jetson LAN address used during the demo: `10.142.81.126`
 - SIP transport: UDP/5060
 - RTP demo range: UDP/10000-10100
+- Audio codec: G.711 μ-law (`ulaw`)
+- Video codec: H.264
 
 ## SIP identities
 
 - Device 1: `device1`
 - Device 2: `device2`
 
-
 ## Demonstrated functions
 
 - SIP registration for Device 1 and Device 2
 - SIP MESSAGE between the two devices
 - Two-way voice call
-- Video call
+- Two-way H.264 video call
 - Asterisk server-side verification through the CLI
 - Asterisk persistence after reboot
 
-## Verify Connection:
+## Verify Connection
+
 On the Jetson:
 
 ```bash
@@ -41,7 +43,6 @@ Inside the Asterisk CLI:
 ```text
 pjsip show contacts
 ```
-
 
 ## Client settings
 
