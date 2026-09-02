@@ -29,7 +29,7 @@ Local SIP server demonstration on an NVIDIA Jetson TX2 using Asterisk/PJSIP and 
 - Asterisk server-side verification through the CLI
 - Asterisk persistence after reboot
 
-
+## Jetson settings:
 On the Jetson:
 
 ```bash
